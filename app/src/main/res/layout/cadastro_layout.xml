@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#D3E3A476"
+    android:orientation="vertical"
+    tools:context=".CadastroActivity">
+
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/Doggerry2" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="#DC5D00" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:contentDescription="usuário"
+            app:boxBackgroundColor="#F8DAC4"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="30dp"
+            app:boxCornerRadiusBottomStart="30dp"
+            app:boxCornerRadiusTopEnd="30dp"
+            app:boxCornerRadiusTopStart="30dp"
+            app:boxStrokeColor="#090A0E"
+            app:endIconMode="none"
+            app:startIconDrawable="">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Usuário"
+                android:maxLength="100"
+                android:padding="20dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:contentDescription="senha"
+            app:boxBackgroundColor="#F8DAC4"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="30dp"
+            app:boxCornerRadiusBottomStart="30dp"
+            app:boxCornerRadiusTopEnd="30dp"
+            app:boxCornerRadiusTopStart="30dp"
+            app:boxStrokeColor="#090A0E"
+            app:endIconMode="password_toggle"
+            app:startIconDrawable="">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtsenha"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Senha"
+                android:inputType="textPassword "
+                android:maxLength="100"
+                android:padding="20dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:contentDescription="email"
+            app:boxBackgroundColor="#F8DAC4"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="30dp"
+            app:boxCornerRadiusBottomStart="30dp"
+            app:boxCornerRadiusTopEnd="30dp"
+            app:boxCornerRadiusTopStart="30dp"
+            app:boxStrokeColor="#090A0E"
+            app:endIconMode="none"
+            app:startIconDrawable="">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email"
+                android:maxLength="100"
+                android:padding="20dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:contentDescription="telefone"
+            app:boxBackgroundColor="#F8DAC4"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="30dp"
+            app:boxCornerRadiusBottomStart="30dp"
+            app:boxCornerRadiusTopEnd="30dp"
+            app:boxCornerRadiusTopStart="30dp"
+            app:boxStrokeColor="#090A0E"
+            app:endIconMode="none"
+            app:startIconDrawable="">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtTelefone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Telefone"
+                android:inputType="phone"
+                android:maxLength="100"
+                android:padding="20dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="60dp"
+                android:checked="false"
+                android:text="Doggery"
+                android:textColor="#662B00"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Cliente"
+                android:textColor="#662B00"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="#DC5D00" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/google" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entrar com Google" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/facebook"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entrar com Facebook" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnCad"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Surface"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableBottom=""
+                android:text="Cadastrar"
+                android:textColor="#273914" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
