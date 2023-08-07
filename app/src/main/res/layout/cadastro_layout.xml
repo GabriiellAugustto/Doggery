@@ -19,7 +19,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/Doggerry2" />
+            android:src="@drawable/doggerry" />
 
     </LinearLayout>
 
@@ -47,8 +47,7 @@
             app:boxCornerRadiusTopEnd="30dp"
             app:boxCornerRadiusTopStart="30dp"
             app:boxStrokeColor="#090A0E"
-            app:endIconMode="none"
-            app:startIconDrawable="">
+            app:endIconMode="none">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtUsuario"
@@ -72,15 +71,14 @@
             app:boxCornerRadiusTopEnd="30dp"
             app:boxCornerRadiusTopStart="30dp"
             app:boxStrokeColor="#090A0E"
-            app:endIconMode="password_toggle"
-            app:startIconDrawable="">
+            app:endIconMode="password_toggle">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtsenha"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="Senha"
-                android:inputType="textPassword "
+                android:inputType="textPassword"
                 android:maxLength="100"
                 android:padding="20dp" />
 
@@ -98,8 +96,7 @@
             app:boxCornerRadiusTopEnd="30dp"
             app:boxCornerRadiusTopStart="30dp"
             app:boxStrokeColor="#090A0E"
-            app:endIconMode="none"
-            app:startIconDrawable="">
+            app:endIconMode="none">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtEmail"
@@ -173,8 +170,8 @@
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:layout_gravity="center"
-            android:orientation="horizontal"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -189,8 +186,8 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/facebook"
-                android:layout_marginLeft="30dp"/>
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/facebook" />
 
             <TextView
                 android:layout_width="wrap_content"
