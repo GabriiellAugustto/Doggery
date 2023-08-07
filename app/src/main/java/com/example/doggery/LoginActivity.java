@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
         btnSair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                stopService(new Intent(getApplicationContext(), LoginActivity.class));
+                stopService(new Intent(getApplicationContext(),LoginActivity.class));
             }
         });
 
@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
         txtCadUsu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), CadastroActivity.class));
+                startActivity(new Intent(getApplicationContext(),CadastroActivity.class));
             }
         });
 

@@ -45,9 +45,7 @@
             app:boxCornerRadiusBottomStart="30dp"
             app:boxCornerRadiusTopEnd="30dp"
             app:boxCornerRadiusTopStart="30dp"
-            app:boxStrokeColor="#090A0E"
-            app:endIconMode="none"
-            app:startIconDrawable="">
+            app:boxStrokeColor="#090A0E">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtUsuario"
@@ -70,9 +68,7 @@
             app:boxCornerRadiusBottomStart="30dp"
             app:boxCornerRadiusTopEnd="30dp"
             app:boxCornerRadiusTopStart="30dp"
-            app:boxStrokeColor="#090A0E"
-            app:endIconMode="password_toggle"
-            app:startIconDrawable="">
+            app:boxStrokeColor="#090A0E">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtsenha"
