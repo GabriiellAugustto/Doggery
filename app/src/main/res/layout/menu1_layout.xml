@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D3E3A476"
+    android:background="#FFFFD0"
     android:orientation="vertical"
     tools:context=".Menu1Activity">
 
@@ -16,7 +16,7 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/doggerry" />
+            android:src="@drawable/" />
 
 
     </LinearLayout>
@@ -26,7 +26,7 @@
         android:layout_height="2dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:background="#DC5D00" />
+        android:background="#D09CFA" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -173,7 +173,7 @@
         android:layout_height="2dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:background="#DC5D00" />
+        android:background="#D09CFA" />
 
     <LinearLayout
         android:layout_width="wrap_content"

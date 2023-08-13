@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D3E3A476"
+    android:background="#FFFFD0"
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
@@ -17,14 +17,14 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/doggerry"/>
+            android:src="@drawable/"/>
 
     </LinearLayout>
 
     <View
         android:layout_width="300dp"
         android:layout_height="2dp"
-        android:background="#DC5D00"
+        android:background="#D09CFA"
         android:layout_gravity="center"/>
 
     <LinearLayout
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:contentDescription="usuário"
-            app:boxBackgroundColor="#F8DAC4"
+            app:boxBackgroundColor="#D09CFA"
             app:boxBackgroundMode="outline"
             app:boxCornerRadiusBottomEnd="30dp"
             app:boxCornerRadiusBottomStart="30dp"
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:contentDescription="senha"
-            app:boxBackgroundColor="#F8DAC4"
+            app:boxBackgroundColor="#D09CFA"
             app:boxBackgroundMode="outline"
             app:boxCornerRadiusBottomEnd="30dp"
             app:boxCornerRadiusBottomStart="30dp"
@@ -94,7 +94,7 @@
             android:layout_marginTop="20dp"
             android:layout_width="300dp"
             android:layout_height="2dp"
-            android:background="#DC5D00"
+            android:background="#D09CFA"
             android:layout_gravity="center"/>
 
         <LinearLayout
@@ -137,7 +137,7 @@
 
             <Button
                 android:id="@+id/btnEntrar"
-                style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Surface"
+                style="@style/Widget.Material3.Button.ElevatedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="3dp"
@@ -147,7 +147,7 @@
 
             <Button
                 android:id="@+id/btnSair"
-                style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Surface"
+                style="@style/Widget.Material3.Button.ElevatedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="3dp"

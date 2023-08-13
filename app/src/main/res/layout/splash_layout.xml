@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D3E3A476"
+    android:background="#FFFFD0"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".SplashActivity">
@@ -13,24 +13,23 @@
     <ImageView
         android:layout_width="400dp"
         android:layout_height="400dp"
-        android:src="@drawable/doggerry" />
+        android:src="@drawable/" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
         android:text="DOGGERY"
-        android:textColor="#DC5D00"
+        android:textColor="#D09CFA"
         android:textSize="50dp"
         android:textStyle="bold" />
 
     <ProgressBar
         android:id="@+id/progress"
-        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        style="@android:style/Widget.Holo.Light.ProgressBar"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:indeterminate="true"
-        />
+        android:indeterminate="true" />
 
 
 
