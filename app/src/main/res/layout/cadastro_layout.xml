@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="#D3E3A476"
+    android:background="#FEE4C2"
     android:orientation="vertical"
     tools:context=".CadastroActivity">
 
@@ -19,7 +19,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/doggerry" />
+            android:src="@drawable/dog" />
 
     </LinearLayout>
 
@@ -27,7 +27,7 @@
         android:layout_width="300dp"
         android:layout_height="2dp"
         android:layout_gravity="center"
-        android:background="#DC5D00" />
+        android:background="#78502B" />
 
     <LinearLayout
         android:layout_width="350dp"
@@ -146,14 +146,14 @@
                 android:layout_marginRight="60dp"
                 android:checked="false"
                 android:text="Doggery"
-                android:textColor="#662B00"
+                android:textColor="#78502B"
                 android:textStyle="bold" />
 
             <CheckBox
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:text="Cliente"
-                android:textColor="#662B00"
+                android:textColor="#78502B"
                 android:textStyle="bold" />
 
 
@@ -163,7 +163,7 @@
             android:layout_width="300dp"
             android:layout_height="2dp"
             android:layout_gravity="center"
-            android:background="#DC5D00" />
+            android:background="#78502B" />
 
         <LinearLayout
             android:layout_width="wrap_content"

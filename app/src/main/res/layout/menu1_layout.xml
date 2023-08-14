@@ -14,8 +14,8 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
             android:src="@drawable/dog" />
 
 
@@ -25,7 +25,6 @@
         android:layout_width="300dp"
         android:layout_height="2dp"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
         android:background="#78502B" />
 
     <LinearLayout
@@ -47,24 +46,29 @@
                 android:layout_height="130dp"
                 android:layout_margin="10dp"
                 android:clickable="true"
-                app:cardCornerRadius="20dp">
+                app:cardCornerRadius="20dp"
+                app:cardPreventCornerOverlap="false"
+                style="@style/Widget.Material3.CardView.Elevated">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#FDE3C1"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
-                        android:scaleType="centerCrop" />
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/walk"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center" />
+                        android:layout_gravity="center"
+                        android:text="Passeio" />
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
@@ -75,24 +79,28 @@
                 android:layout_height="130dp"
                 android:layout_margin="10dp"
                 android:clickable="true"
-                app:cardCornerRadius="20dp">
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Elevated">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#FDE3C1"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
-                        android:scaleType="centerCrop" />
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/agenda"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center" />
+                        android:layout_gravity="center"
+                        android:text="Agenda" />
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
@@ -113,24 +121,28 @@
                 android:layout_height="130dp"
                 android:layout_margin="10dp"
                 android:clickable="true"
-                app:cardCornerRadius="20dp">
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Elevated">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#FDE3C1"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
-                        android:scaleType="centerCrop" />
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/avalia"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center" />
+                        android:layout_gravity="center"
+                        android:text="Avaliação" />
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
@@ -141,24 +153,28 @@
                 android:layout_height="130dp"
                 android:layout_margin="10dp"
                 android:clickable="true"
-                app:cardCornerRadius="20dp">
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Elevated">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#FDE3C1"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
-                        android:scaleType="centerCrop" />
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/chat"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center" />
+                        android:layout_gravity="center"
+                        android:text="Chat" />
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
