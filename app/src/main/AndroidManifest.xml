@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Doggery"
         tools:targetApi="31">
         <activity
-            android:name=".Menu2Activity"
+            android:name=".Cadastro2Activity"
             android:exported="false" />
         <activity
             android:name=".Menu1Activity"
@@ -27,19 +27,15 @@
         <activity
             android:name=".SplashActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
-
+            android:exported="false"></activity>
     </application>
 
 </manifest>

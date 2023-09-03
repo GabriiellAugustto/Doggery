@@ -4,23 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FEE4C2"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".SplashActivity">
+    tools:context=".SplashActivity"
+    android:background="@drawable/fundo">
 
 
     <ImageView
-        android:layout_width="400dp"
-        android:layout_height="500dp"
-        android:src="@drawable/dog" />
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/dog_logo"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#685453" />
 
     <ProgressBar
-        android:id="@+id/progress"
-        style="@android:style/Widget.Holo.Light.ProgressBar.Large.Inverse"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:indeterminate="true" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
 
 
 </LinearLayout>
