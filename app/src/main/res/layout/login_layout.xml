@@ -38,7 +38,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sign In"
-                android:fontFamily="@font/Lilita"
                 android:textColor="#685453"
                 android:textSize="40sp"
                 android:textStyle="bold" />
@@ -63,11 +62,10 @@
                     android:layout_height="50dp"
                     android:hint="Usuário"
                     android:drawableRight="@drawable/perso"
-                    android:fontFamily="@font/Lilita"
                     android:maxLength="100"
                     android:padding="20dp" />
 
-            </com.google.android.material.textfield.TextInputLayout
+            </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="280dp"
@@ -88,21 +86,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:hint="Senha"
-                    android:fontFamily="@font/Lilita"
                     android:inputType="textPassword"
                     android:maxLength="100"
                     android:padding="20dp" />
 
-            </com.google.android.material.textfield.TextInputLayout
+            </com.google.android.material.textfield.TextInputLayout>
 
             <Button
+                android:id="@+id/btsingin"
                 style="@style/Widget.Material3.Button"
                 android:layout_width="155dp"
                 android:layout_height="48dp"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="#A6B0E8"
                 android:text="Sign In"
-                android:fontFamily="@font/Lilita"
                 android:textSize="20sp" />
 
             <TextView
@@ -110,7 +107,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:text="Forgot your password?"
-                android:fontFamily="@font/Lilita"
                 android:textSize="15sp"
                 android:textColor="#685453"/>
 
@@ -133,7 +129,6 @@
             android:drawableLeft="@drawable/google"
             android:rotationY="4"
             android:text="Google"
-            android:fontFamily="@font/Lilita"
             android:textColor="#685453"
             android:textSize="15sp" />
 
@@ -147,7 +142,6 @@
             android:drawableLeft="@drawable/face"
             android:rotationY="-4"
             android:text="Facebook"
-            android:fontFamily="@font/Lilita"
             android:textColor="#685453"
             android:textSize="15sp" />
 
@@ -160,7 +154,6 @@
         android:layout_marginTop="50dp"
         android:backgroundTint="@color/white"
         android:text="Don’t have an account? Sign Up!"
-        android:fontFamily="@font/Lilita"
         android:textSize="15sp"
         android:textColor="#685453"/>
 

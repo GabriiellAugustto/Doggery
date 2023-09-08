@@ -10,10 +10,20 @@ import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
 
-
+    Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_layout);
+
+        button=findViewById(R.id.btsingin);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), Menu1Activity.class));
+
+            }
+        });
+
     }
 }
