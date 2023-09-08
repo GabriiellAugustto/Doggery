@@ -28,7 +28,8 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:drawableTop="@drawable/lock"
-            android:backgroundTint="#08FFFFFF"/>
+            android:backgroundTint="#08FFFFFF"
+            android:text="settings"/>
 
 </LinearLayout>
 
@@ -80,8 +81,8 @@
             android:layout_height="100dp"
             android:layout_margin="30dp"
             android:clickable="true"
-            app:cardBackgroundColor="#03FFFFFF"
-            app:cardCornerRadius="30dp"
+            app:cardBackgroundColor="#FAFFFFFF"
+            app:cardCornerRadius="40dp"
             >
 
             <LinearLayout
@@ -90,10 +91,11 @@
                 android:orientation="vertical">
 
             <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_gravity="center_horizontal"
                 android:scaleType="centerCrop"
+                android:src="@drawable/dog_logo"
                 />
 
             <TextView
@@ -113,7 +115,7 @@
             android:layout_height="100dp"
             android:layout_margin="30dp"
             android:clickable="true"
-            app:cardBackgroundColor="#00FFFFFF"
+            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="30dp"
             >
 
@@ -123,10 +125,11 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_gravity="center_horizontal"
                     android:scaleType="centerCrop"
+                    android:src="@drawable/perso"
                     />
 
                 <TextView
@@ -155,7 +158,7 @@
             android:layout_height="100dp"
             android:layout_margin="30dp"
             android:clickable="true"
-            app:cardBackgroundColor="#00FFFFFF"
+            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="30dp"
             >
 
@@ -165,10 +168,11 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_gravity="center_horizontal"
                     android:scaleType="centerCrop"
+                    android:src="@drawable/fone"
                     />
 
                 <TextView
