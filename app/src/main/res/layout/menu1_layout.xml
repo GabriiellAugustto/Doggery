@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             app:menu="@menu/bottom_nav_menu"
             android:layout_alignBottom="@id/flFragment"
-            android:background="#A6B0E8"
+            android:background="#DEE0EA"
             />
 
 
