@@ -8,6 +8,7 @@
     tools:context=".Menu1Activity">
 
 
+
         <FrameLayout
             android:background="#4BA6B0E8"
             android:id="@+id/flFragment"
@@ -22,6 +23,7 @@
             android:layout_height="wrap_content"
             app:menu="@menu/bottom_nav_menu"
             android:layout_alignBottom="@id/flFragment"
+            android:background="#A6B0E8"
             />
 
 

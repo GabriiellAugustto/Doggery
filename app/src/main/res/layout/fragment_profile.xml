@@ -7,13 +7,131 @@ tools:context=".HomeFragment"
 android:gravity="center"
 android:background="@drawable/fundo">
 
-<TextView
-    android:id="@+id/firstFragment"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Profile"
-    android:textColor="#111"
-    android:textSize="40sp"
-    android:textStyle="italic|bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B2A6B0E8"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/dog_logo"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar Perfil"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"/>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="2dp"
+            android:layout_margin="20dp"
+            android:background="#685453" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/perso"
+             android:layout_marginLeft="30dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Nome"
+             android:layout_marginLeft="10dp"
+             android:textSize="15sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/email"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E_mail"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fone"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefone"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="2dp"
+            android:layout_margin="20dp"
+            android:background="#685453" />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <com.google.android.material.switchmaterial.SwitchMaterial
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Configuração 1"/>
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Configuração 2"/>
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Configuração 3"/>
+    </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
 
 </LinearLayout>

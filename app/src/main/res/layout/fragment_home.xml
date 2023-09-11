@@ -1,179 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".HomeFragment"
     android:background="@drawable/fundo"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
+        android:background="#B2A6B0E8"
         android:gravity="center|top"
-        android:background="#4BA6B0E8">
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:layout_marginLeft="170dp"
-        android:layout_marginTop="10dp">
+        android:orientation="vertical">
 
 
-        <Button
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:drawableTop="@drawable/lock"
-            android:backgroundTint="#08FFFFFF"
-            android:text="settings"/>
-
-</LinearLayout>
-
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:contentDescription="usuário"
-        app:boxBackgroundColor="#FFFFFF"
-        app:boxBackgroundMode="outline"
-        app:boxCornerRadiusBottomEnd="30dp"
-        app:boxCornerRadiusBottomStart="30dp"
-        app:boxCornerRadiusTopEnd="30dp"
-        app:boxCornerRadiusTopStart="30dp"
-        app:boxStrokeColor="#090A0E"
-        android:layout_marginTop="10dp">
-
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/txtUsuario"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="Procurar DogWalker"
-            android:maxLength="100"
-            android:padding="20dp"
-            />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Serviços:"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:layout_marginTop="20dp"
-        android:textColor="#685453"
-        />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="20dp">
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="130dp"
-            android:layout_height="100dp"
-            android:layout_margin="30dp"
-            android:clickable="true"
-            app:cardBackgroundColor="#FAFFFFFF"
-            app:cardCornerRadius="40dp"
-            >
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center_horizontal"
-                android:scaleType="centerCrop"
-                android:src="@drawable/dog_logo"
-                />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Passeio"
-                android:textAllCaps="true"
+                android:text="DOGGERY"
+                android:textSize="25dp"
                 android:textColor="#685453"
-                android:textSize="15sp"
-                android:textStyle="bold" />
-            </LinearLayout>
+                android:textStyle="bold"/>
 
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="130dp"
-            android:layout_height="100dp"
-            android:layout_margin="30dp"
-            android:clickable="true"
-            app:cardBackgroundColor="#FFFFFF"
-            app:cardCornerRadius="30dp"
-            >
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:backgroundTint="#08FFFFFF"
+                android:drawableTop="@drawable/lock"
+                android:text="settings"
+                android:layout_marginLeft="245dp"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="usuário"
+            app:boxBackgroundColor="#FFFFFF"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="30dp"
+            app:boxCornerRadiusBottomStart="30dp"
+            app:boxCornerRadiusTopEnd="30dp"
+            app:boxCornerRadiusTopStart="30dp"
+            app:boxStrokeColor="#090A0E"
+            android:layout_margin="10dp">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Procurar DogWalker"
+                android:maxLength="100"
+                android:padding="20dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Serviços:"
+            android:textColor="#685453"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="3dp"
+            android:layout_margin="15dp"
+            android:background="#685453" />
+
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#AEFFFFFF"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center_horizontal"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/perso"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="130dp"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Hospedagem"
-                    android:textAllCaps="true"
-                    android:textColor="#685453"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="130dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#00FFFFFF"
+                        android:contentDescription="Passeio"
+                        android:scaleType="center"
+                        android:src="@drawable/dogg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Passeio"
+                        android:textAllCaps="true"
+                        android:textColor="#685453"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
             </LinearLayout>
 
-        </com.google.android.material.card.MaterialCardView>
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#A9FFFFFF"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-</LinearLayout>
+                <LinearLayout
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
+                    <ImageButton
+                        android:layout_width="130dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#00FFFFFF"
+                        android:contentDescription="Hotel"
+                        android:scaleType="center"
+                        android:src="@drawable/hotel" />
 
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="310dp"
-            android:layout_height="100dp"
-            android:layout_margin="30dp"
-            android:clickable="true"
-            app:cardBackgroundColor="#FFFFFF"
-            app:cardCornerRadius="30dp"
-            >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hotel"
+                        android:textAllCaps="true"
+                        android:textColor="#685453"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#ABFFFFFF"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                <ImageButton
+                    android:id="@+id/btnagenda"
+                    android:layout_width="350dp"
+                    android:layout_height="150dp"
                     android:layout_gravity="center_horizontal"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/fone"
-                    />
+                    android:background="#00FFFFFF"
+                    android:contentDescription="Agenda"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/agendaa" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -182,12 +194,15 @@
                     android:text="Agendamento"
                     android:textAllCaps="true"
                     android:textColor="#685453"
-                    android:textSize="15sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
+        </LinearLayout>
 
-        </com.google.android.material.card.MaterialCardView>
-
-    </LinearLayout>
+        <View
+            android:layout_width="350dp"
+            android:layout_height="3dp"
+            android:layout_margin="15dp"
+            android:background="#685453" />
     </LinearLayout>
 </LinearLayout>

@@ -3,14 +3,17 @@
 
 
     <item
+        android:icon="@drawable/home"
         android:id="@+id/mhome"
         android:title="Home" />
 
     <item
+        android:icon="@drawable/notificacao"
         android:id="@+id/mnotificacoes"
         android:title="Notificações"/>
 
     <item
+        android:icon="@drawable/perso"
         android:id="@+id/mperson"
         android:title="Profile" />
 
