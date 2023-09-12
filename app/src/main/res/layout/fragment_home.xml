@@ -27,17 +27,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="DOGGERY"
-                android:textSize="20dp"
                 android:textColor="#685453"
-                android:textStyle="bold"/>
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
             <Button
                 android:layout_width="48dp"
                 android:layout_height="48dp"
+                android:layout_marginLeft="245dp"
                 android:backgroundTint="#08FFFFFF"
                 android:drawableTop="@drawable/settings"
-                android:text="settings"
-                android:layout_marginLeft="245dp"/>
+                android:text="settings" />
 
         </LinearLayout>
 
@@ -45,6 +45,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="350dp"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:contentDescription="usuário"
             app:boxBackgroundColor="#FFFFFF"
             app:boxBackgroundMode="outline"
@@ -52,18 +53,17 @@
             app:boxCornerRadiusBottomStart="30dp"
             app:boxCornerRadiusTopEnd="30dp"
             app:boxCornerRadiusTopStart="30dp"
-            app:boxStrokeColor="#090A0E"
-            android:layout_margin="5dp">
+            app:boxStrokeColor="#090A0E">
 
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:drawableRight="@drawable/search"
                 android:hint="Procurar DogWalker"
                 android:maxLength="100"
-                android:padding="20dp"
-                android:drawableRight="@drawable/search"/>
+                android:padding="20dp" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -74,8 +74,7 @@
             android:text="Serviços:"
             android:textColor="#685453"
             android:textSize="30sp"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
 
         <View
             android:layout_width="350dp"
@@ -101,9 +100,9 @@
                 <LinearLayout
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_margin="20dp"
-                    android:orientation="vertical"
-                    android:layout_gravity="center">
+                    android:orientation="vertical">
 
                     <ImageButton
                         android:id="@+id/btnpasseio"
@@ -130,12 +129,12 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
                 android:backgroundTint="#FFFFFF"
                 android:orientation="horizontal"
-                app:cardCornerRadius="40dp"
-                android:layout_gravity="center">
+                app:cardCornerRadius="40dp">
 
                 <LinearLayout
                     android:layout_width="130dp"
@@ -179,39 +178,38 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="360dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_margin="5dp"
-                android:orientation="vertical"
-                app:cardCornerRadius="40dp"
                 android:backgroundTint="#FFFFFF"
-                android:layout_gravity="center">
+                android:orientation="vertical"
+                app:cardCornerRadius="40dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="vertical"
                     android:layout_gravity="center"
-                    android:layout_margin="5dp">
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                <ImageButton
-                    android:id="@+id/btnagenda"
-                    android:layout_width="320dp"
-                    android:layout_height="120dp"
-                    android:layout_gravity="center_horizontal"
-                    android:background="#00FFFFFF"
-                    android:contentDescription="Agenda"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/agendaa" />
+                    <ImageButton
+                        android:id="@+id/btnagenda"
+                        android:layout_width="320dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#00FFFFFF"
+                        android:contentDescription="Agenda"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/agendaa" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Agendamento"
-                    android:textAllCaps="true"
-                    android:textColor="#685453"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Agendamento"
+                        android:textAllCaps="true"
+                        android:textColor="#685453"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>

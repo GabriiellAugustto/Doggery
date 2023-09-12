@@ -17,10 +17,10 @@
             android:id="@+id/topAppBar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            android:background="#A6B0E8"
             app:menu="@menu/toolbar_manu"
             app:navigationIcon="@drawable/icon_menu"
-            app:title="Imbox"
-            android:background="#A6B0E8"/>
+            app:title="Imbox" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -28,14 +28,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#4BA6B0E8"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
             android:layout_marginTop="500dp"
+            android:layout_marginBottom="10dp"
             android:contentDescription="mensagem"
             app:boxBackgroundColor="#A6B0E8"
             app:boxBackgroundMode="outline"
@@ -43,8 +44,7 @@
             app:boxCornerRadiusBottomStart="30dp"
             app:boxCornerRadiusTopEnd="30dp"
             app:boxCornerRadiusTopStart="30dp"
-            app:boxStrokeColor="#090A0E"
-            android:layout_gravity="center">
+            app:boxStrokeColor="#090A0E">
 
 
             <com.google.android.material.textfield.TextInputEditText
@@ -54,8 +54,7 @@
                 android:drawableRight="@drawable/send"
                 android:hint="Imbox"
                 android:maxLength="100"
-                android:padding="20dp"
-                />
+                android:padding="20dp" />
 
         </com.google.android.material.textfield.TextInputLayout>
 

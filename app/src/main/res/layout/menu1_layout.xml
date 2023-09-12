@@ -8,23 +8,21 @@
     tools:context=".Menu1Activity">
 
 
+    <FrameLayout
+        android:id="@+id/flFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4BA6B0E8"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView" />
 
-        <FrameLayout
-            android:background="#4BA6B0E8"
-            android:id="@+id/flFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"/>
 
-
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottomNavigationView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:menu="@menu/bottom_nav_menu"
-            android:layout_alignBottom="@id/flFragment"
-            android:background="#A6B0E8"
-            />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/flFragment"
+        android:background="#A6B0E8"
+        app:menu="@menu/bottom_nav_menu" />
 
 
 </RelativeLayout>

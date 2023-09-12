@@ -175,13 +175,13 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/btnsingin1"
             style="@style/Widget.Material3.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:backgroundTint="#F8F5F5"
             android:text="Already have an account? Sign In!"
-            android:id="@+id/btnsingin1"
             android:textColor="#685453"
             android:textSize="15sp" />
 

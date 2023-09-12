@@ -14,24 +14,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#4BA6B0E8"
         android:gravity="center"
-        android:orientation="vertical"
-        android:background="#4BA6B0E8">
+        android:orientation="vertical">
 
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_marginTop="60dp"
-        android:src="@drawable/dog_logo" />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/dog_logo" />
 
 
-    <ProgressBar
-        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Inverse"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:indeterminate="false" />
+        <ProgressBar
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:indeterminate="false" />
     </LinearLayout>
 
 
