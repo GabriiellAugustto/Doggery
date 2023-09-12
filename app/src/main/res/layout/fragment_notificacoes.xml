@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fundo"
-    android:gravity="center"
     android:orientation="vertical"
     tools:context=".HomeFragment">
 
@@ -20,29 +19,32 @@
             android:layout_height="?attr/actionBarSize"
             app:menu="@menu/toolbar_manu"
             app:navigationIcon="@drawable/icon_menu"
-            app:title="Imbox" />
+            app:title="Imbox"
+            android:background="#A6B0E8"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#B5A6B0E8"
-        android:gravity="bottom"
-        android:orientation="vertical">
+        android:background="#4BA6B0E8"
+        android:orientation="vertical"
+        android:gravity="center">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="400dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:layout_marginTop="500dp"
             android:contentDescription="mensagem"
-            app:boxBackgroundColor="#DDFFFFFF"
+            app:boxBackgroundColor="#A6B0E8"
             app:boxBackgroundMode="outline"
             app:boxCornerRadiusBottomEnd="30dp"
             app:boxCornerRadiusBottomStart="30dp"
             app:boxCornerRadiusTopEnd="30dp"
             app:boxCornerRadiusTopStart="30dp"
-            app:boxStrokeColor="#090A0E">
+            app:boxStrokeColor="#090A0E"
+            android:layout_gravity="center">
 
 
             <com.google.android.material.textfield.TextInputEditText
@@ -52,7 +54,8 @@
                 android:drawableRight="@drawable/send"
                 android:hint="Imbox"
                 android:maxLength="100"
-                android:padding="20dp" />
+                android:padding="20dp"
+                />
 
         </com.google.android.material.textfield.TextInputLayout>
 

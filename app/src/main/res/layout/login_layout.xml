@@ -148,14 +148,15 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/btnsingup"
         style="@style/Widget.Material3.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="#A6B0E8"
         android:text="Don’t have an account? Sign Up!"
         android:textSize="15sp"
-        android:textColor="#685453"/>
+        android:textColor="#fff"/>
 
     </LinearLayout>
 </LinearLayout>

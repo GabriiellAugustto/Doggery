@@ -12,22 +12,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#B2A6B0E8"
+        android:background="#4BA6B0E8"
         android:gravity="center|top"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="30dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
             android:src="@drawable/dog_logo"/>
 
         <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Editar Perfil"
-        android:layout_marginTop="20dp"
-        android:textSize="15sp"/>
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:id="@+id/txtedPerfil"/>
 
         <View
             android:layout_width="350dp"
@@ -39,7 +40,7 @@
             android:layout_width="380dp"
             android:layout_height="180dp"
             android:layout_marginTop="5dp"
-            android:backgroundTint="#83FFFFFF"
+            android:backgroundTint="#fff"
             android:orientation="horizontal"
             app:cardCornerRadius="40dp"
             android:layout_margin="10dp">
@@ -126,13 +127,13 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center"
-            android:layout_margin="10dp">
+          >
 
             <androidx.cardview.widget.CardView
-                android:layout_width="160dp"
+                android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="5dp"
-                android:backgroundTint="#D0FFFFFF"
+                android:backgroundTint="#DFFFFFFF"
                 android:orientation="horizontal"
                 app:cardCornerRadius="40dp"
                 android:layout_margin="10dp">
@@ -168,10 +169,10 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:layout_width="160dp"
+                android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="5dp"
-                android:backgroundTint="#D0FFFFFF"
+                android:backgroundTint="#DFFFFFFF"
                 android:orientation="horizontal"
                 app:cardCornerRadius="40dp"
                 android:layout_margin="10dp">
@@ -212,14 +213,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_margin="10dp">
+            android:gravity="center">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="5dp"
-                android:backgroundTint="#D0FFFFFF"
+                android:backgroundTint="#FFF"
                 android:orientation="horizontal"
                 app:cardCornerRadius="40dp"
                 android:layout_margin="10dp">
@@ -236,7 +236,7 @@
                         android:layout_width="80dp"
                         android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
-                        android:background="#00FFFFFF"
+                        android:background="#FFF"
                         android:contentDescription="Ajuda"
                         android:scaleType="center"
                         android:src="@drawable/ajuda"
@@ -258,7 +258,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="5dp"
-                android:backgroundTint="#D0FFFFFF"
+                android:backgroundTint="#FFF"
                 android:orientation="horizontal"
                 app:cardCornerRadius="40dp"
                 android:layout_margin="10dp">
@@ -295,7 +295,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="5dp"
-                android:backgroundTint="#D0FFFFFF"
+                android:backgroundTint="#DFFFFFFF"
                 android:orientation="horizontal"
                 app:cardCornerRadius="40dp"
                 android:layout_margin="10dp">
@@ -311,7 +311,7 @@
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
-                        android:background="#00FFFFFF"
+                        android:background="#FFF"
                         android:contentDescription="Atividade"
                         android:scaleType="center"
                         android:src="@drawable/atividade"
